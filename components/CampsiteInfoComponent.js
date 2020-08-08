@@ -6,7 +6,7 @@ import { CAMPSITES } from '../shared/campsites';
 function RenderCampsite({campsite}) {
    
     if (campsite) {
-        return (
+        return ( 
             <Card
                 featuredTitle={campsite.name}
                 image={require('./images/react-lake.jpg')}>
